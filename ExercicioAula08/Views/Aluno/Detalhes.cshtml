@@ -1,0 +1,18 @@
+@{
+    ViewData["Title"] = "Detalhes do Aluno";
+}
+
+<div class="container mt-5">
+    <div class="jumbotron bg-light p-5 rounded shadow-sm">
+        <h1 class="display-4 text-success">Detalhes Cadastrais</h1>
+        <p class="lead">Página de consulta detalhada do estudante.</p>
+        <hr class="my-4">
+        
+        <p class="fs-5">
+            Você está visualizando o perfil detalhado do aluno cujo código identificador (ID) é: 
+            <span class="badge bg-dark fs-6">@ViewBag.IdAluno</span>
+        </p>
+
+        <a class="btn btn-secondary mt-3" href="/Aluno" role="button">Voltar para o Perfil</a>
+    </div>
+</div>
